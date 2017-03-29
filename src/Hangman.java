@@ -80,6 +80,7 @@ public class Hangman {
             //if all lives are lost, end game
             if (correct < length) {
                 System.out.println("You've lost all your lives. Game over.");
+                System.out.println("The correct word was " + word + ".");
             }
             //ask to play again
             System.out.println("Play again? (Yes/No)");
