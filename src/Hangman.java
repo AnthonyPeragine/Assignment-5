@@ -26,6 +26,9 @@ public class Hangman {
             String word = input.nextLine();
             //converts word to lower case for consistency
             word = word.toLowerCase();
+            for (int spaces = 0; spaces < 13; spaces++) {
+                System.out.println(" ");
+            }
             //gets the length of the entered word
             int length = word.length();
             //prints out blanks for every letter
