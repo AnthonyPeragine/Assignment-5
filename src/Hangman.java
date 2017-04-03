@@ -74,6 +74,7 @@ public class Hangman {
                 //if word is succesfully completed, say winning string
                 if (correct == length) {
                     System.out.println("Congratulations, you won!");
+                    System.out.println("The word was " + word + ".");
                     break;
                 }
             }
